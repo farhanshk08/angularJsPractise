@@ -1,0 +1,99 @@
+<!-- <!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div ng-app="" ng-init="firstName='abcd'"></div>
+    <p>Name:<span ng-bind="firstName"></span></p> 
+</div>
+</body>
+</html> -->
+
+<!-- angularJs expressions-->
+
+<!-- example 1 -->
+
+<!-- <!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    
+<div ng-app="" >
+    <p>SUM IS:{{5+5}}</p> 
+</div>
+</body>
+</html> -->
+
+<!-- example 2 -->
+
+<!-- <!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    
+<div ng-app="" >
+    <p>my name is : <input type ="text" ng-model="name"></p> 
+    <p>{{name}}</p>
+</div>
+</body>
+</html> -->
+
+<!-- example 3 -->
+
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    
+<div ng-app="" ng-init="myCol='lightblue'" >
+    <input style="background-color: {{myCol}}" ng-model="myCol">
+    
+</div>
+</body>
+</html>
+
+<!-- *** angularJs modules *** -->
+
+<!-- example 1 -->
+
+<!-- <!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+    
+<div ng-app="myApp" ng-controller="myCtrl" >
+   <p>FirstName :<input type="text" ng-model="fName"></p>  
+   <p>LastName :<input type="text" ng-model="lName"></p>
+   <p ng-show="fName && lName">FullName :{{fName + " " + lName }}</p>    
+</div>
+<script>
+    var app = angular.module('myApp' ,[]); // creates a Module named myApp 
+    app.controller('myCtrl',function($scope){ // creates a controller myCtrl in myApp module
+        $scope.fName ="";
+        $scope.lName = "";
+    });
+</script>
+</body>
+</html> -->
+
+
+
+
+
+<!-- 1. ng-app directive defines angular js application
+2. ng-init direction is used to initialize variables 
+3.ng-bind directive helps to bind the content to variable name
+4. {{expressions}}  is used to output data 
+5.angularJs modules defines angularJs applications (ng-app)
+6.angularJs controllers controls the angularJS applications(ng-controller)
+7. $scope ia an angularJs property used to share the data
+8. with angular wi=e can change css properties also -->
+
+
+
+
+
+
+
+
+
